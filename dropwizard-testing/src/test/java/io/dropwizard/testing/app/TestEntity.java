@@ -16,7 +16,7 @@ import static java.util.Objects.requireNonNull;
 public class TestEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "id")
     private long id;
 
